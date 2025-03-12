@@ -1,0 +1,562 @@
+body {
+
+	background-color: #000;
+
+	font-family: din;
+}
+
+#contenedorDeInputs	{
+
+	background-color:	#402323 !important; 
+
+	color: #285534 !important;
+
+	border: 2px solid #285534 !important;
+
+	border-radius: 10px !important;
+
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+
+	-moz-box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+
+	box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+
+}
+
+select	{
+
+	background-color: #661400 !important;
+
+	color:	#00802b !important;
+
+	border: 1px solid #285534 !important;
+
+	/*font-weight: bold !important;*/
+
+
+}
+
+button {
+
+	background-color: #402323;
+
+	color:	#285534 !important;
+
+	border: 1px solid #285534 !important;
+}
+
+button:hover {
+
+	background-color: #402323;
+
+	color:	#285534;
+
+	font-weight: bold;
+
+	border: 3px solid #285534 !important;
+
+}
+
+table	{
+
+	border: 2px solid #285534 !important;
+
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+
+	-moz-box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+	
+	box-shadow: 0px 0px 10px 5px rgba(35,64,43,1);
+
+}
+
+thead th	{
+
+	background-color: #402323 !important;
+
+	color: #285534 !important;
+
+}
+
+path {
+
+	fill: #808080;
+
+	stroke: #fff;
+
+	stroke-width: 1px;
+}
+
+.Antartida {
+
+	stroke-width: 0;
+}
+
+#drop-area {
+
+	border: 2px dashed #00802b;/*#285534;*/
+
+    border-radius: 20px;
+
+    width: 300px;
+
+    height: 200px;
+
+    font-family: sans-serif;
+
+    margin: 50px auto;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+#CapitalFederal, #IslasMalvinas {
+
+	stroke-width: 0;
+}
+
+/*PATH DE MAPA*/
+.turquesa0 {
+
+	fill: #f3fffe !important;
+}
+
+.turquesa1 {
+
+	fill: #cff3f6 !important;
+}
+
+.turquesa2 {
+
+	fill: #abe7ee !important;
+}
+
+.turquesa3 {
+
+	fill: #87dbe6 !important;
+}
+
+.turquesa4 {
+
+	fill: #64cedf !important;
+}
+
+.turquesa5 {
+
+	fill: #1cb6cf !important;
+}
+
+.turquesa6 {
+
+	fill: #119eb4 !important;
+}
+
+.turquesa7 {
+
+	fill: #0e8194 !important;
+}
+
+.turquesa8 {
+
+	fill: #0b6473 !important;
+}
+
+.turquesa9 {
+
+	fill: #084852 !important;
+}
+
+.turquesa10 {
+
+	fill: #052b31 !important;
+}
+
+.turquesa11 {
+
+	fill: #020e10 !important;
+}
+
+.naranja0 {
+
+	fill: #fff3e9 !important;
+
+}
+
+.naranja1 {
+
+	fill: #f8e0bf !important;
+
+}
+
+.naranja2 {
+
+	fill: #f0ce94 !important;
+
+}
+
+.naranja3 {
+
+	fill: #e9bb6a !important;
+
+}
+
+.naranja4 {
+
+	fill: #e2a940 !important;
+
+}
+
+.naranja5 {
+
+	fill: #db9615 !important;
+
+}
+
+.naranja6 {
+
+	fill: #c98400 !important;
+
+}
+
+.naranja7 {
+
+	fill: #ad7100 !important;
+
+}
+
+.naranja8 {
+
+	fill: #915f00 !important;
+
+}
+
+.naranja9 {
+
+	fill: #754c00 !important;
+
+}
+
+.naranja10 {
+
+	fill: #593a00 !important;
+
+}
+
+.naranja11 {
+
+	fill: #3d2700 !important;
+
+}
+
+
+
+/*CELDAS DE TABLA*/
+.turquesa0 td {
+
+	background-color: #f3fffe !important;
+}
+
+.turquesa1 td {
+
+	background-color: #cff3f6 !important;
+}
+
+.turquesa2 td {
+
+	background-color: #abe7ee !important;
+}
+
+.turquesa3 td {
+
+	background-color: #87dbe6 !important;
+}
+
+.turquesa4 td {
+
+	background-color: #64cedf !important;
+}
+
+.turquesa5 td {
+
+	background-color: #1cb6cf !important;
+}
+
+.turquesa6 td {
+
+	background-color: #119eb4 !important;
+}
+
+.turquesa7 td {
+
+	background-color: #0e8194 !important;
+}
+
+.turquesa8 td {
+
+	background-color: #0b6473 !important;
+}
+
+.turquesa9 td {
+
+	background-color: #084852 !important;
+}
+
+.turquesa10 td {
+
+	background-color: #052b31 !important;
+}
+
+.turquesa11 td {
+
+	background-color: #020e10 !important;
+}
+
+
+.naranja0 td {
+
+	background-color: #fff3e9 !important;
+
+}
+
+.naranja1 td {
+
+	background-color: #f8e0bf !important;
+
+}
+
+.naranja2 td {
+
+	background-color: #f0ce94 !important;
+
+}
+
+.naranja3 td {
+
+	background-color: #e9bb6a !important;
+
+}
+
+.naranja4 td {
+
+	background-color: #e2a940 !important;
+
+}
+
+.naranja5 td {
+
+	background-color: #db9615 !important;
+
+}
+
+.naranja6 td {
+
+	background-color: #c98400 !important;
+
+}
+
+.naranja7 td {
+
+	background-color: #ad7100 !important;
+
+}
+
+.naranja8 td {
+
+	background-color: #915f00 !important;
+
+}
+
+.naranja9 td {
+
+	background-color: #754c00 !important;
+
+}
+
+.naranja10 td {
+
+	background-color: #593a00 !important;
+
+}
+
+.naranja11 td {
+
+	background-color: #3d2700 !important;
+
+}
+
+.majenta0 td {
+
+	background-color: #ffddff !important;
+
+}
+
+.majenta1 td {
+
+	background-color: #ffbcff !important;
+
+}
+
+.majenta2 td {
+
+	background-color: #ff80ff !important;
+
+}
+
+.majenta3 td {
+
+	background-color:  #ff4dff !important;
+
+}
+
+.majenta4 td {
+
+	background-color: #ff23ff !important;
+
+}
+
+.majenta5 td {
+
+	background-color: #cb08ca !important;
+
+}
+
+.majenta6 td {
+
+	background-color: #b10cb1 !important;
+
+}
+
+.majenta7 td {
+
+	background-color: #981097 !important;
+
+}
+
+.majenta8 td {
+
+	background-color: #7e147e !important;
+
+}
+
+.majenta9 td {
+
+	background-color: #661865 !important;
+
+}
+
+.majenta10 td {
+
+	background-color: #4e1b4d !important;
+
+}
+
+.majenta11 td {
+
+	background-color: #222221 !important;
+
+}
+
+.azul0 td {
+
+	background-color: #e8f0f6 !important;
+
+}
+
+.azul1 td {
+
+	background-color: #d1e1ee !important;
+
+}
+
+.azul2 td {
+
+	background-color: #b9d2e5 !important;
+
+}
+
+.azul3 td {
+
+	background-color: #a2c3dc !important;
+
+}
+
+.azul4 td {
+
+	background-color: #8bb4d4 !important;
+
+}
+
+.azul5 td {
+
+	background-color: #74a4cb !important;
+
+}
+
+.azul6 td {
+
+	background-color: #5d95c3 !important;
+
+}
+
+.azul7 td {
+
+	background-color: #1768a9 !important;
+
+}
+
+.azul8 td {
+
+	background-color: #0059a0 !important;
+
+}
+
+.azul9 td {
+
+	background-color: #004c89 !important;
+
+}
+
+.azul10 td {
+
+	background-color: #00335b !important;
+
+}
+
+.azul11 td {
+
+	background-color: #00192e !important;
+
+}
+
+
+.colorDeBaseTurquesa {
+
+	fill: #020e10 !important;
+
+	stroke: #020e10 !important;
+
+}
+
+
+.colorDeBaseNaranja {
+
+	fill: #3d2700 !important;
+
+	stroke: #3d2700 !important;
+}
+
+
+.colorDeBaseMajenta {
+
+	fill: #222221 !important;
+
+	stroke: #222221 !important;
+}
+
+
+.colorDeBaseAzul {
+
+	fill: #00192e !important;
+
+	stroke: #00192e !important;
+}
